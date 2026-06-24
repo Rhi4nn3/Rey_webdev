@@ -17,6 +17,6 @@
 **College:** FEU
 
 ## Work
-**Work experience:** Animated a show made for children(2020-2023)
+**Work experience:** Animated and storyboarded a show made for children(2020-2023)
 
 **Projects:** animation [(https://drive.google.com/file/d/1K2_5RKn2hy4rMsYhX39q36NFGX6PpVjt/view)]
