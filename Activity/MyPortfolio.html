@@ -17,8 +17,8 @@
     <a href="#about">ABOUT ME</a>|
     <a href="#snh">SKILLS</a>|
     <a href="#edubac">PROJECTS</a>|
-    <a href="#con">EDUCATIONAL BACKGROUND</a>|
-    <a href="#sm">SOCIAL MEDIA</a>|
+    <a href="#educational">EDUCATIONAL BACKGROUND</a>|
+    <a href="#contactForm">CONTACT FORM</a>|
 
     <h2>ABOUT ME</h2>
     <p>Hello, I'm Rhianne Sofia Rey, Rhianne for short. I'm a Grade-12 ICT student studying at PWU - JASMS. </p>
@@ -71,34 +71,38 @@
         <br>
         <label for="email">Email: </label><br>
         <input type="text" id="email">
-
-    
-    <h3>Schedule for appointment: </h3>
-    
-        <input type="radio" id="contactEmail" name="perferred_contact" value="ContactEmail">
-        <label for="contactEmail">Email</label>
-        <input type="radio" id="contactPhone" name="perferred_contact" value="ContactPhone">
-        <label for="contactPhone">Phone</label>
-   
-
-    <br>
-
-    <h3>Services Interested in:</h3>
-    
-        <input type="checkbox" id="service1" name="service1" value=>
-        <label for="service1"></label>
-
-    
-
-  
-    
-
     <br>
     <br>
-
+    <h3>Schedule for appointment: </h3><br>
     
+        <label for="schedule">Select a date:</label>
+        <input type="datetime-local" id="schedule" name="schedule">
+    <br>
+    <br>
+    <h3>Select your preferred color:</h3><br>
+        <label for="preferredColor">Choose here:</label>
+        <input type="color" id="preferredColor" name="preferredColor">
+    <br>
+    <br>
+    <h3>Insert your resume:</h3><br>
+        <label for="resume">Insert here:</label>
+        <input type="file" id="resume" name="resume">
+    <br>
+    <br>
+    <h3>Select what you're interested in:</h3>
+        <input type="checkbox" id="service1" name="service1" value="WebDesign">
+        <label for="service1">Web Design</label><br>
+        <input type="checkbox" id="service2" name="service2" value="Programming">
+        <label for="service2">Programming</label><br>
+        <input type="checkbox" id="service3" name="service3" value="Tutoring">
+        <label for="service3">Tutoring</label>
+    <br>
+    <br>
+    <p class="smallText">(Please submit the form once you're done. Reset the form if you need to make changes or spotted any errors.)</p>
         <input type="submit" value="submit">
         <input type="reset" value="reset">
     </form>
+
+    <p>Thank you for visiting my portfolio!</p>
 </body>
 </html>
