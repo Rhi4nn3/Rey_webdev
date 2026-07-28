@@ -1,16 +1,64 @@
-p{
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    font-size: 16px;
-    color: #000000;
+.centerMain {
+    text-align: center;
+    font-size: 60px;
 }
 
-h1{
-    font-family: Stencil, fantasy;
-    font-size: 36px;
-    color: #000000;
+header{
+    background-color: rgb(15, 137, 190);
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-.smallText {
-    font-size: 10px;
-    color: #000000;
+.center {
+    text-align: center;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    align: left;
+}
+
+.navigationBar{
+   text-align: center; 
+   margin-top: 20px; 
+   margin-bottom: 20px;
+   }
+
+a {
+    text-decoration: none;
+    color: rgb(47, 63, 230);
+    display: inline-block;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+        color: rgb(139, 212, 254);
+    }
+
+.educationalTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 80%;
+    border: 3px solid #000;
+    cellpadding="6px";
+}
+
+.math {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:230px;
+}
+
+.science {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:330px;
 }

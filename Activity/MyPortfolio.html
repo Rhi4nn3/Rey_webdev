@@ -7,34 +7,32 @@
     <link rel="stylesheet" href="MyPortfolio.css">
 </head>
 <body>
-    <h1>WELCOME TO MY PORTFOLIO</h1>
-    <p>Hi, my name is Rhianne</p>
-    <p>"Clear and calm."</p>
+   <header>
+    <h1 class="centerMain" id="home">WELCOME TO MY PORTFOLIO</h1>
+    <p class="center">Hi, my name is Rhianne and this is my portfolio.</p>
+    <p class="center">"Clear and calm."</p>
+   </header>
+   <br>
 
-      <H2>NAVIGATIONS</H2>
+   <p class="center">Click the links below to navigate:</p>
+    <nav class="navigationBar">
+        <a href="#aboutMe">|ABOUT ME</a>|
+        <a href="#projects">PROJECTS</a>|
+        <a href="#educationalBackground">EDUCATIONAL BACKGROUND</a>|
+        <a href="#contactForm">CONTACT FORM</a>|
+    </nav>
 
-    <a href="#home">|HOME</a>|
-    <a href="#about">ABOUT ME</a>|
-    <a href="#snh">SKILLS</a>|
-    <a href="#edubac">PROJECTS</a>|
-    <a href="#educational">EDUCATIONAL BACKGROUND</a>|
-    <a href="#contactForm">CONTACT FORM</a>|
-
-    <h2>ABOUT ME</h2>
-    <p>Hello, I'm Rhianne Sofia Rey, Rhianne for short. I'm a Grade-12 ICT student studying at PWU - JASMS. </p>
+    <h2 id="aboutMe">ABOUT ME</h2>
+    <img class="profile" src="Untitled529_20260721203519.jpeg" alt="Profile Picture">
+    <p>Hello, I'm Rhianne Sofia Rey, Rhianne for short. I'm a Grade-12 ICT student studying at PWU - JASMS. My goal for this school year is to improve my skills in programming, and to pass this grade level with flying colors.</p>
 
 
-     <h2>EDUCATIONAL BACKGROUND</h2 >
-    <table border="3px" cellpadding="6px">
-        <tr">
+     <h2 id="educationalBackground">EDUCATIONAL BACKGROUND</h2 >
+    <table class="educationalTable"  border = 3px cellpadding = 6px style=" border-color: rgb(90, 148, 255); background-color: azure; color: black;">
+        <tr style="background-color: rgb(116, 199, 255); color: black;">
             <th>Educational Attainment</th>
             <th>School</th>
             <th>Year of Graduation</th>
-        </tr>
-        <tr>
-            <td>Pre-school</td>
-            <td>Castle Ville Academy</td>
-            <td>2014</td>
         </tr>
         <tr>
             <td>Elementary</td>
@@ -44,7 +42,7 @@
         <tr>
             <td>Junior High School</td>
             <td>San Francisco High School</td>
-            <td>Moving Up - 2025</td>
+            <td>2025</td>
         </tr>
         <tr>
             <td>Senior High School</td>
@@ -58,10 +56,17 @@
         </tr>
     </table>
     
-    <h2>PROJECTS</h2>
+    <h2 id="projects">PROJECTS</h2>
     <p>Here are some of my projects:</p>
+    <img class="math" src="IMG_7345.jpeg" alt="Project 1">
+    <P>This project was made for my grade 11 subject, Probability and Statistics. The goal was to find and calculate the probability of students who does household chores.</P>
+    <br>
+    <img class="science" src="IMG_7511.jpeg" alt="Project 2">
+    <p>This project was made for my grade 11 subject, Earth and life. The goal was to create a tangent and working model for issues we wanted to solve. Mine was power outages, so i made a powerbank that could recharge devices during outages.</p>
+    <br>
+    
 
-    <h2>CONTACT FORM</h2>
+    <h2 id="contactForm">CONTACT FORM</h2>
     <p>Type down the following information:</p>
 
     <form action="">
@@ -104,5 +109,8 @@
     </form>
 
     <p>Thank you for visiting my portfolio!</p>
+    <nav>
+        <a href="#home">|GO BACK TO TOP</a>|
+    </nav>
 </body>
 </html>
