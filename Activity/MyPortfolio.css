@@ -1,17 +1,57 @@
 .centerMain {
     text-align: center;
     font-size: 60px;
+    text-shadow: 2px 2px 2px #00000043;
 }
 
 header{
-    background-color: rgb(15, 137, 190);
+    background: #2695DE;
+background: -moz-linear-gradient(top, #2695DE 0%, #0F89BE 47%, #182E64 100%);
+background: -webkit-linear-gradient(top, #2695DE 0%, #0F89BE 47%, #182E64 100%);
+background: linear-gradient(to bottom, #2695DE 0%, #0F89BE 47%, #182E64 100%);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
+
+article{
+    background: #57BFFF;
+background: -moz-radial-gradient(center, #57BFFF 0%, #0F89BE 47%, #305DCA 100%);
+background: -webkit-radial-gradient(center, #57BFFF 0%, #0F89BE 47%, #305DCA 100%);
+background: radial-gradient(ellipse at center, #57BFFF 0%, #0F89BE 47%, #305DCA 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 
 .center {
     text-align: center;
+    text-shadow: 2px 2px 2px #00000043;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #00000043;
+    font-size: 35px;
+    color: rgb(6, 45, 102);
+    background: #57BFFF;
+background: -moz-radial-gradient(center, #57BFFF 0%, #92D5FF 47%, #376BE8 100%);
+background: -webkit-radial-gradient(center, #57BFFF 0%, #92D5FF 47%, #376BE8 100%);
+background: radial-gradient(ellipse at center, #57BFFF 0%, #92D5FF 47%, #376BE8 100%);
+}
+
+h3 {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(3, 26, 60);
+}
+
+.list {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(3, 26, 60);
+    text-shadow: 2px 2px 2px #00000043;
 }
 
 .profile {
@@ -26,25 +66,24 @@ header{
    margin-bottom: 20px;
    }
 
+
+   
 a {
     text-decoration: none;
-    color: rgb(47, 63, 230);
+    color: rgb(6, 31, 69);
     display: inline-block;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
 a:hover {
-        color: rgb(139, 212, 254);
+        color: rgb(202, 235, 255);
     }
 
 .educationalTable {
     margin-left: auto;
     margin-right: auto;
-    border-collapse: collapse;
     width: 80%;
-    border: 3px solid #000;
-    cellpadding="6px";
 }
 
 .math {
@@ -62,3 +101,14 @@ a:hover {
     width: 300px;
     height:330px;
 }
+
+.smallText {
+    font-size: 12px;
+}
+
+.button {
+color: rgb(255, 255, 255); font-size: 18px; line-height: 18px; padding: 10px; border-radius: 32px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: radial-gradient(rgb(87, 191, 255) 0%, rgb(17, 158, 219) 47%, rgb(48, 93, 202) 100%);  border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #57BFFF; }
+.myButton:active {
+background: #305DCA; }
