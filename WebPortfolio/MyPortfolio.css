@@ -17,8 +17,7 @@ background: linear-gradient(to bottom, #2695DE 0%, #0F89BE 47%, #182E64 100%);
     color: white;
     text-align: center;
     padding: 20px;
-    border-radius: 20px;
-    border:4px solid #5da7e4
+    
 }
 
 
@@ -30,9 +29,9 @@ background: radial-gradient(ellipse at center, #57BFFF 0%, #0F89BE 47%, #305DCA 
     color: white;
     text-align: center;
     padding: 20px;
-    border-radius: 20px;
+    
     padding: 10px;
-    border:4px solid #5da7e4
+    
 }
 
 .box{
