@@ -1,0 +1,36 @@
+header{
+background: #E1F1FF;
+background: -moz-radial-gradient(center, #E1F1FF 0%, #D2ECFF 50%, #C7E5FF 100%);
+background: -webkit-radial-gradient(center, #E1F1FF 0%, #D2ECFF 50%, #C7E5FF 100%);
+background: radial-gradient(ellipse at center, #E1F1FF 0%, #D2ECFF 50%, #C7E5FF 100%);
+    padding: 10px;
+}
+
+
+
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+input[type="text"]{
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: #94c5f0;
+}
+
+button{
+
+    color: rgb(148, 197, 240); font-size: 21px; line-height: 21px; padding: 13px; border-radius: 14px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: radial-gradient(rgb(225, 241, 255) 0%, rgb(210, 236, 255) 50%, rgb(199, 229, 255) 100%); box-shadow: rgba(0, 0, 0, 0.18) 0px 11px 15px 5px; border: 2px solid rgb(199, 229, 255); display: inline-block;}
+    button:hover {
+    color: #000000; }
+
+
