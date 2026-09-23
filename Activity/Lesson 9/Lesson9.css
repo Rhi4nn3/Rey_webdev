@@ -27,9 +27,25 @@ h1{
     color: #94c5f0;
 }
 
+
 button{
 
-    color: rgb(148, 197, 240); font-size: 21px; line-height: 21px; padding: 13px; border-radius: 14px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: radial-gradient(rgb(225, 241, 255) 0%, rgb(210, 236, 255) 50%, rgb(199, 229, 255) 100%); box-shadow: rgba(0, 0, 0, 0.18) 0px 11px 15px 5px; border: 2px solid rgb(199, 229, 255); display: inline-block;}
+    color: rgb(148, 197, 240); 
+    font-size: 21px; 
+    line-height: 21px; 
+    padding: 13px; 
+    border-radius: 14px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: radial-gradient(rgb(225, 241, 255) 0%, rgb(210, 236, 255) 50%, rgb(199, 229, 255) 100%); 
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 11px 15px 5px; 
+    border: 2px solid rgb(199, 229, 255); 
+    display: inline-block;}
+
     button:hover {
     color: #000000; }
 
