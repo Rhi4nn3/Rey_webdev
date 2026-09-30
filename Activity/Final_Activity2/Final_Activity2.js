@@ -1,4 +1,5 @@
 function sumbitForm(){
+    event.preventDefault();
     var name = document.getElementById("name").value;
     var idNumber = document.getElementById("idNumber").value;  
     var gradeAndSection = document.getElementById("gradeAndSection").value;
