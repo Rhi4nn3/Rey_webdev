@@ -1,3 +1,37 @@
+body{
+    background-color: #E4F1FA;
+}
+
 header{
     text-align: center;
 }
+
+.letter-container{
+    text-align: center;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 80px;
+    border:2px solid #a4bfe0;
+    
+    
+}
+
+textarea{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+button {
+color: rgb(255, 255, 255); font-size: 17px; line-height: 17px; padding: 9px; border-radius: 9px; font-family: "Trebuchet MS", Helvetica, sans-serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; 
+background-image: linear-gradient(rgb(151, 207, 232) 0%, rgb(186, 247, 255) 50%, rgb(186, 247, 255) 100%); box-shadow: rgba(0, 0, 0, 0.12) 1px 3px 15px 0px; border: 2px solid rgb(151, 207, 232); display: inline-block;
+color: #08141a;}
+button:hover {
+background: #97CFE8; }
+button:active {
+background: #BAF7FF; }
