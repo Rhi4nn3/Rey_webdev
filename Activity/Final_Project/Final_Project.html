@@ -11,13 +11,16 @@
     <h3>╭────-·-ˋˏ-༻𖤓༺-ˎˊ·-────╮</h3>
     <h1>A Letter for Me</h1>
     <p>⊹ ࣪ ˖⏱˗ˏˋ ꒰ ✉︎ ꒱ ˎˊ˗ ୭˚. ᵎ</p>
-    <h3>╰────-·-ˋˏ-༻𖤓༺-ˎˊ·-────╯</h3>
+    <h3>╰────-·-ˋˏ-༻𖤓༺-ˎˊ·-────╯</h3><br>
+    <p>Write a letter to your future self and set a date for when you want to read it.</p>
 </header>
 <div class="letter-container">
     <form><textarea name="letter" id="letter" cols="50" rows="15" placeholder="Write a letter to your future self here..."></textarea>
     <br><br>
     <button id="saveButton">Save Letter</button>
-    <input type="date" id="dateInput">
+    <input type="date" id="dateInput" class="date-input"><br>
+    <p>Enter your email address to receive a notification when it's time to read your letter:</p>
+    <input type="text" id="email" placeholder="Enter your email">
     <div class="locked" id="status"></div>
     <div class="message" id="output"></div></form>
 </div>
